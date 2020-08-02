@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title> Documentaries-LNN NEWS </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Documentaries.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+  crossorigin="anonymous">
+  <script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+</head>
+
+<body >
+   <header>
+    <a class="navbar-brand" href="#">
+        <img src="images/LNN NEWS.jpg " alt="logo" style="width:120px; ">
+      </a>
+      
+   </header>
+    </br></br></br></br></br>
+    <!---------- Nav bar ---------->
+<nav  class="navbar navbar-inverse" style="background-color: #E8E5E5;" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="#"><span class="fas fa-home"></span> Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fas fa-flag"></span>
+             Country <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Arab World</a></li>
+            <li><a href="#">Palestine </a></li>
+            <li><a href="#">Europe</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="fas fa-bullhorn"></span>   Breaking News</a></li>
+        <li><a href="#"><span class="fas fa-user-tie"></span> Political</a></li>
+        <li><a href="#"><span class="fas fa-chart-pie"></span> Business</a></li>
+        <li class = "active" ><a href="#"><span class="fas fa-film"></span> Documentaries</a></li>
+        <li><a href="#"><span class ="fas fa-futbol"></span> Sports</a></li>
+        <li><a  href="#"><span class="fas fa-star" ></span> Celebrity</a></li>  
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="fas fa-search"></span></button>
+      </form>
+    </div>
+    </nav>
+    </div>
+  </div>
+</nav>
+<!---------- Documentaries Page ---------->
+<div style=" color:black ;padding-left:2%; max-width: 700px;max-height: 500px; " >
+<h1 >LNN Documentaries</h1>
+<article style = "font-size:18px;"> Watch high-class documentaries from German broadcasters and international production companies.
+    Meet intriguing people, travel to</br> distant lands, get a look behind the complexities of daily life and,
+     build a deeper understanding of current affairs and global events. </article>
+</div>
+   </br>
+   
+  <div style="max-width:800px ; max-height:550px; background-color: white; align-content: center;" class="container" >
+   <iframe width="800px" height="450px" src="https://www.youtube.com/embed/Kqk2wLlgyvw" >
+   </iframe>
+   <article>Big game hunting causes outrage - but it also offers opportunities to preserve threatened species.
+    Big game bag</br> elephants or lions and pose with their trophies.
+    <span id="dots">...</span><span id="more">
+    It can cause outrage hunters- but hunting can offer a way to </br>
+    preserve nature and protect threatened species.
+    Such as the one-hundred elephants that will be resettled</br> in Zimbabwe.
+  </span></article>
+  <button onclick="myFunction()" id="myBtn">Read more</button>   
+</div>
+
+<br>
+
+  
+&nbsp;&nbsp;
+
+<div class="grid-container">
+  
+  <div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/e5F1v_osAV0" >
+  </iframe>
+  <article>
+    Leonardo da Vinci's "Mona Lisa" is probably the world’s most famous painting.
+    But whose portrait actually is it? There are two clues to the identity of the
+   mysterious young woman, but they are mutually exclusive.<br>
+  </article>
+</div>
+
+
+<div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/tT0ob3cHPmE" >
+  </iframe>
+  <article>
+    Thousands of soldiers were killed in the last battles of World War II. US troops
+    who fought in the Hürtgen Forest nicknamed it the "Death Factory." This documentary
+    features original film from US archives that bring the battle back to life.<br>
+  </article>
+</div>
+
+
+<div style="max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/2QSXKDCFh7o" >
+  </iframe>
+  <article>
+  Adolf Hitler committed suicide in his bunker as the Red Army closed in on Berlin
+  on April 30, 1945.But legends about the Nazi dictator's lived on. Was his body ever 
+  found? Did he manage to escape? After Hitler, aides poured gasoline on his body and 
+  set it alight in the garden of his chancellery.A few days later, the Soviets
+  discovered the remains. <br>
+  </article>
+</div>
+<br>
+
+&nbsp;&nbsp;
+
+<div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/feRMWoJYE80" >
+  </iframe>
+  <article>
+    Most northern Europeans like winter, even when the mercury falls below 
+    minus 40 degrees Celsius. But in the polar regions of Norway, Finland and
+    Sweden even running daily errands in snow and storms can be quite an adventure.<br>
+  </article>
+</div>
+
+
+<div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/qxaiRb1HeRw" >
+  </iframe>
+  <article>
+    Mustafa Kemal Atatürk was a revolutionary and the founder of modern Turkey. 
+    A brilliant military strategist, a womanizer and a popular educator who
+    changed the face of Turkey, he was one of the most fascinating personalities of his time.<br>
+     </article>
+</div>
+
+
+<div style="max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/iG0o_duevlA" >
+  </iframe>
+  <article>
+    A train journey through the Elbe Sandstone Mountains between Germany and the Czech Republic. 
+    Peculiar rock formations and the river Elbe shape this beautiful region. Since the 
+    mid 19th century, a railway line has been meandering through its valleys.<br>
+  </article>
+</div>
+
+
+
+<br>
+<div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/sfNFMcSiFQI" >
+  </iframe>
+  <article>
+    The world has become more insecure and a new arms race seems imminent. 
+    Disarmament treaties are lapsing and existing alliances crumbling.
+    Will Germany be able to meet the challenges?
+  </article>
+</div>
+
+<div style=" max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/iLGgILUqbcc" >
+  </iframe>
+  <article>
+    Few places on Earth are as remote as the German research facility Neumayer Station III.
+    The scientists who work at this outpost in Antarctica are studying the effects 
+    of climate change -- under extreme conditions.
+  </article>
+</div>
+
+<div style="max-width:450px ; max-height:300px; background-color: white; " class="card" >
+  <iframe width="400px" height="150px" src="https://www.youtube.com/embed/6X1Y0Mj7Qzc" >
+  </iframe>
+  <article>
+  Germany’s secret service, the BND, is heavily involved in the delivery
+  of weapons to crisis areas of the world. As this documentary shows,
+  it has - among other things - played along with arms deals made by
+  German shipping companies.
+  </article>
+</div>
+
+<br>
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+<nav aria-label="Page navigation example">
+  <ul  class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+</body>
+</html>
